@@ -1,12 +1,10 @@
 import React from 'react'
-import '../../App.css'
 
-function Services() {
+export default function Stats() {
     return (
         <div>
-            
+            Hello
         </div>
     )
 }
 
-export default Services
