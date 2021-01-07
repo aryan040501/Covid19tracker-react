@@ -28,7 +28,6 @@
 
 .nav-options > li > a {
   color: #ffffff;
-  padding: 8px;
   margin: 12px;
   text-decoration: none;
   font-size: 20px;
@@ -37,7 +36,7 @@
   padding-bottom: 0;
 }
 
-.nav-options > li > a :hover {
+.nav-options > li > a:hover {
   color: dodgerblue;
 }
 
