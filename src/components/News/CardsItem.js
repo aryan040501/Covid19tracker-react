@@ -5,10 +5,7 @@ function CardItem(props) {
   return (
     <>
       <li className="cards__item">
-        <Link
-          className="cards__item__link"
-          to="https://www.gov.uk/government/news/uk-medicines-regulator-gives-approval-for-first-uk-covid-19-vaccine"
-        >
+        <Link className="cards__item__link" to={props.path}>
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
               className="cards__item__img"
