@@ -1,14 +1,17 @@
 .options-container {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-  }
-  
-  .option-button {
-    margin: 5px;
-    border-radius: 25px;
-    padding: 8px;
-    border-color: blue;
-    background: transparent;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.option-button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 8px;
+  border-color: blue;
+  background: transparent;
+  text-align: center;
+}
+.option-button:focus {
+  outline: 0;
+}

@@ -1,4 +1,5 @@
-.react-chatbot-kit-chat-container{
-    margin-left: 38em;
-    margin-top: 5rem;
+.react-chatbot-kit-chat-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5rem;
 }

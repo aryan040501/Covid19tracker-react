@@ -10,7 +10,9 @@ import image5 from "./images/5.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these COVID-19 NEWS!</h1>
+      <h1 style={{ textAlign: "center", fontSize: "2.5em", margin: "2.5vh" }}>
+        Check Out These COVID-19 News!
+      </h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
