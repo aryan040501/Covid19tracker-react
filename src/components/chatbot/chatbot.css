@@ -3,3 +3,19 @@
   margin: 0 auto;
   margin-top: 5rem;
 }
+
+@media (max-width: 648px) {
+  .react-chatbot-kit-chat-message-container {
+    height: auto;
+  }
+  .react-chatbot-kit-chat-container {
+    margin-top: 0;
+    width: auto;
+  }
+  .react-chatbot-kit-chat-inner-container {
+    margin-bottom: 0;
+  }
+  .react-chatbot-kit-chat-input-container {
+    position: inherit;
+  }
+}
