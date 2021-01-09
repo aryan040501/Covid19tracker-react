@@ -10,7 +10,15 @@ import image5 from "./images/5.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1 style={{ textAlign: "center", fontSize: "2.5em", margin: "2.5vh" }}>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "2.5em",
+          margin: "2.5vh",
+          color: "white",
+          paddingBottom: "25px",
+        }}
+      >
         Check Out These COVID-19 News!
       </h1>
       <div className="cards__container">

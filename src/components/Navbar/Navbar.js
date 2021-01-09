@@ -12,7 +12,14 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={Logo} className="logo" />
+      {/* Mobile menu handling click */}
+      <div className="mobile-menu" onClick={handleClick}>
+        {click ? (
+          <CloseMenu className="menu-icon" />
+        ) : (
+          <MenuIcon className="menu-icon" />
+        )}
+      </div>
 
       <ul className={click ? "nav-options active" : "nav-options"}>
         <li className="option" onClick={closeMobileMenu}>
@@ -27,15 +34,7 @@ const Navbar = () => {
           <Link to="/Analyser">Analyser</Link>
         </li>
       </ul>
-
-      {/* Mobile menu handling click */}
-      <div className="mobile-menu" onClick={handleClick}>
-        {click ? (
-          <CloseMenu className="menu-icon" />
-        ) : (
-          <MenuIcon className="menu-icon" />
-        )}
-      </div>
+      <img src={Logo} className="logo" />
     </div>
   );
 };

@@ -23,6 +23,6 @@
   }
   .react-chatbot-kit-chat-bot-message {
     /* height: auto; */
-    width: auto;
+    width: auto !important;
   }
 }
