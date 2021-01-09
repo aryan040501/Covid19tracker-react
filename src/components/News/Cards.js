@@ -28,13 +28,13 @@ function Cards() {
               src={image1}
               text="UK govt approves Oxford-AstraZeneca Covid-19 vaccine"
               label="UK News"
-              path=""
+              path="https://www.moneycontrol.com/news/trends/health-trends/uk-approves-oxford-astrazeneca-covid-19-vaccine-6285481.html"
             />
             <CardItem
               src={image2}
               text="Indian govt extends ban on UK-India flights till Jan 7"
               label="Travel News"
-              path=""
+              path="https://www.livemint.com/news/india/india-extends-ban-on-flights-from-uk-till-7-january-11609306413497.html"
             />
           </ul>
           <ul className="cards__items">
@@ -42,19 +42,19 @@ function Cards() {
               src={image3}
               text="India reports 14 more cases of new UK coronavirus strain"
               label="India News"
-              path=""
+              path="https://science.thewire.in/health/india-reports-6-cases-of-uk-coronavirus-strain/"
             />
             <CardItem
               src={image4}
               text="21,822 new cases in India"
               label="India News"
-              path=""
+              path="https://www.netindian.in/news/national/india-reports-299-covid-19-deaths-21822-new-cases-in-past-24-hours"
             />
             <CardItem
               src={image5}
               text="299 deaths in India"
               label="India News"
-              path=""
+              path="https://www.dnaindia.com/india/report-india-reports-21821-covid19-cases-299-deaths-in-24-hours-2865235"
             />
           </ul>
         </div>
