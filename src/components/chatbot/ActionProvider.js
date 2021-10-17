@@ -21,7 +21,7 @@ class ActionProvider {
 
   noHandlerOne = () => {
     const message = this.createChatBotMessage(
-      "Phew! Have you ever had Diabetes OR Hypertension OR Lung Disease OR Heart Disease?",
+      "Oh No! You know when I fell down I listen to Good Life Radio... Do you listen to songs?",
       {
         widget: "Optionstwo",
       }
@@ -44,7 +44,7 @@ class ActionProvider {
 
   noHandlerTwo = () => {
     const message = this.createChatBotMessage(
-      "Phew! Have you Travelled anywhere Internationally in the last 28-45 Days?",
+      "Now I would really recommend you to first take a good walk.. Can you do that?",
       {
         widget: "Optionsthree",
       }
@@ -67,7 +67,7 @@ class ActionProvider {
 
   noHandlerThree = () => {
     const message = this.createChatBotMessage(
-      "Phew! Have you Come in contact with a COVID Positive Person?",
+      "Oh, let me have a conversation with you then. Will you be up for that?",
       {
         widget: "Optionsfour",
       }
@@ -86,12 +86,12 @@ class ActionProvider {
       this.setChatbotMessage(message);
     } else if (count === 1) {
       const message = this.createChatBotMessage(
-        "You have a slight risk, We recommend you to stay home and eat Healthy!"
+        "Thanks a lot, Do let me know if you need to talk about anything.. Have a good day"
       );
       this.setChatbotMessage(message);
     } else {
       const message = this.createChatBotMessage(
-        "You have no risk, We still recommend you to stay home and eat Healthy!"
+        "Thanks a lot, Do let me know if you need to talk about anything.. Have a good day"
       );
       this.setChatbotMessage(message);
     }
