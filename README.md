@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Where?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://covid-19-tracker-react-iz8kt.ondigitalocean.app/
 
 ## Available Scripts
 
