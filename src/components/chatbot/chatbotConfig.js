@@ -5,7 +5,7 @@ import Optionsthree from "./Optionsthree";
 import Optionsfour from "./Optionsfour";
 
 const config = {
-  botName: "JOIE",
+  botName: "CovidAnalyser",
   initialMessages: [
     createChatBotMessage(`Hi, My name is JOIE.`),
     createChatBotMessage(`Hi, Are you felling happy today?`, {
