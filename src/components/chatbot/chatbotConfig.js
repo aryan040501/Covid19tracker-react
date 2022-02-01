@@ -8,7 +8,7 @@ const config = {
   botName: "CovidAnalyser",
   initialMessages: [
     createChatBotMessage(`Hi, My name is JOIE.`),
-    createChatBotMessage(`Hi, Are you felling happy today?`, {
+    createChatBotMessage(`Hi, Are you feeling any Discomfort?`, {
       widget: "Optionsone",
     }),
   ],

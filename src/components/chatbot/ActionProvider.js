@@ -9,7 +9,7 @@ class ActionProvider {
 
   yesHandlerOne = () => {
     const message = this.createChatBotMessage(
-      "Thats Amazing! Have you listened to Unforgettable by French Montana",
+      "Oh No! Have you ever had Diabetes OR Hypertension OR Lung Disease OR Heart Disease?",
       {
         widget: "Optionstwo",
       }
@@ -32,7 +32,7 @@ class ActionProvider {
 
   yesHandlerTwo = () => {
     const message = this.createChatBotMessage(
-      "Thats Good! Do you like to Travel?",
+      "Oh No! Have you Travelled anywhere Internationally in the last 28-45 Days?",
       {
         widget: "Optionsthree",
       }
@@ -55,7 +55,7 @@ class ActionProvider {
 
   yesHandlerThree = () => {
     const message = this.createChatBotMessage(
-      "Travelling really helps a lot to refresh the mood. Do take me to the next trip too. Will you?",
+      "Oh No! Have you Come in contact with a COVID Positive Person?",
       {
         widget: "Optionsfour",
       }
@@ -81,7 +81,7 @@ class ActionProvider {
     console.log(count);
     if (count >= 2) {
       const message = this.createChatBotMessage(
-        "Thanks a lot, Do let me know if you need to talk about anything.. Have a good day"
+        "You have high risk, We recommend being quarantined and consulting a doctor"
       );
       this.setChatbotMessage(message);
     } else if (count === 1) {
