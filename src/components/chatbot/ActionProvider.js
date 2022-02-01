@@ -15,7 +15,7 @@ class ActionProvider {
       }
     );
     this.setChatbotMessage(message);
-    count += 2;
+    count += 1;
     console.log(count);
   };
 
@@ -61,7 +61,7 @@ class ActionProvider {
       }
     );
     this.setChatbotMessage(message);
-    count += 2;
+    count += 1;
     console.log(count);
   };
 
@@ -77,14 +77,14 @@ class ActionProvider {
   };
 
   yesHandlerFour = () => {
-    count += 2;
+    count += 1;
     console.log(count);
-    if (count >= 2) {
+    if (count >= 3) {
       const message = this.createChatBotMessage(
         "You have high risk, We recommend being quarantined and consulting a doctor"
       );
       this.setChatbotMessage(message);
-    } else if (count === 1) {
+    } else if (count < 3 && count >= 1) {
       const message = this.createChatBotMessage(
         "You have a slight risk, We recommend you to stay home and eat Healthy!"
       );
